@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TechJourneyCompanion</string>
+
+<string name="styled_text">
+        <![CDATA[
+        <h1>This is a Heading</h1>
+        <p>This is a paragraph with <u>underlined text</u> and <b>bold text</b>.</p>
+        <p>This is <font color="#FF0000">red text</font> and <font color="#00FF00">green text</font>.</p>
+        ]]>
+    </string>
+</resources>

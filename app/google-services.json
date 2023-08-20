@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "312585567559",
+    "project_id": "techjourneycompanion",
+    "storage_bucket": "techjourneycompanion.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312585567559:android:f69bfff852b4ba54862062",
+        "android_client_info": {
+          "package_name": "com.example.techjourneycompanion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312585567559-nmfbvshdnkh6dnj7ti05jgh46ur4af4l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1_40WQ-0RiQ0xHpYH8mcWFyBFC9MMzvo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312585567559-nmfbvshdnkh6dnj7ti05jgh46ur4af4l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
