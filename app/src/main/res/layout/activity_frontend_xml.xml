@@ -1,9 +1,171 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".frontendXML">
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/lavender_round"
+    >
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:layout_below="@id/title2"
+            android:id="@+id/scroll">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal"
+                android:padding="24dp"
+                android:background="@drawable/custom_edittext">
+
+                <!-- Introduction Section -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/xml_or_extensible_markup_language_is_a_widely_used_markup_language_designed_to_structure_store_and_transport_data_in_a_human_readable_and_machine_readable_format"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textAlignment="center"/>
+
+                <!-- Key Characteristics Section -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/key_characteristics_of_xml"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"
+                    android:textColor="@color/green"
+                    android:textSize="18sp"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tags_and_elements_xml_documents_use_tags_to_enclose_data_elements_tags_are_enclosed_in_angle_brackets_and_can_be_nested_to_represent_hierarchical_relationships"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    android:layout_marginTop="8dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/attributes_elements_in_xml_can_have_attributes_that_provide_additional_information_about_the_data_they_represent_attributes_are_specified_within_the_opening_tag_of_an_element"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    android:layout_marginTop="8dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hierarchical_structure_xml_documents_have_a_hierarchical_structure_where_elements_can_have_parent_child_relationships_forming_a_tree_like_structure"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    android:layout_marginTop="8dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/human_readable_and_machine_readable_xml_is_designed_to_be_both_readable_by_humans_and_processable_by_machines_making_it_suitable_for_data_interchange"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    android:layout_marginTop="8dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/flexibility_xml_allows_you_to_define_custom_tags_and_structures_making_it_adaptable_to_different_data_formats_and_requirements"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    android:layout_marginTop="8dp"/>
+
+                <!-- Add more characteristics here -->
+
+                <!-- Reasons Why XML is Needed for Designing Front End Section -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/reasons_why_xml_is_needed_for_designing_front_end"
+                    android:textStyle="bold"
+                    android:textColor="@color/green"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    android:layout_marginTop="16dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/declarative_layout_definition_n_nxml_xml_provides_a_declarative_way_to_define_ui_layouts_using_tags_and_attributes_making_it_straightforward_to_describe_the_structure_and_appearance_of_ui_elements"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    android:layout_marginTop="8dp"/>
+
+                <!-- Add more reasons here -->
+
+                <!-- Learning Site Section -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/learning_sites"
+                    android:textStyle="bold"
+                    android:textColor="@color/green"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    android:layout_marginTop="16dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/w3schools_xml_tutorial_n_nurl_https_www_w3schools_com_xml"
+                    android:textColor="@color/sky"
+                    android:autoLink="web"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    android:layout_marginTop="8dp"/>
+
+                <!-- Add more learning sites here -->
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/logout"
+            android:background="@drawable/lavender_round"
+            android:textSize="18sp"
+            android:layout_marginEnd="20dp"/>
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            android:textSize="18sp"
+            android:background="@drawable/lavender_round"/>
+    </LinearLayout>
+</LinearLayout>
+

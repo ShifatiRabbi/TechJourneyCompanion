@@ -1,11 +1,22 @@
 <resources>
     <string name="app_name">TechJourneyCompanion</string>
-
-<string name="styled_text">
-        <![CDATA[
-        <h1>This is a Heading</h1>
-        <p>This is a paragraph with <u>underlined text</u> and <b>bold text</b>.</p>
-        <p>This is <font color="#FF0000">red text</font> and <font color="#00FF00">green text</font>.</p>
-        ]]>
-    </string>
+    <string name="xml_or_extensible_markup_language_is_a_widely_used_markup_language_designed_to_structure_store_and_transport_data_in_a_human_readable_and_machine_readable_format">XML, or Extensible Markup Language, is a widely used markup language designed to structure, store, and transport data in a human-readable and machine-readable format.</string>
+    <string name="key_characteristics_of_xml">Key Characteristics of XML:</string>
+    <string name="tags_and_elements_xml_documents_use_tags_to_enclose_data_elements_tags_are_enclosed_in_angle_brackets_and_can_be_nested_to_represent_hierarchical_relationships">Tags and Elements: XML documents use tags to enclose data elements. Tags are enclosed in angle brackets and can be nested to represent hierarchical relationships.</string>
+    <string name="reasons_why_xml_is_needed_for_designing_front_end">Reasons Why XML is Needed for Designing Front End:</string>
+    <string name="declarative_layout_definition_n_nxml_xml_provides_a_declarative_way_to_define_ui_layouts_using_tags_and_attributes_making_it_straightforward_to_describe_the_structure_and_appearance_of_ui_elements">Declarative Layout Definition:\n\nXML: XML provides a declarative way to define UI layouts using tags and attributes, making it straightforward to describe the structure and appearance of UI elements..</string>
+    <string name="learning_sites">Learning Sites:</string>
+    <string name="w3schools_xml_tutorial_n_nurl_https_www_w3schools_com_xml">- W3Schools XML Tutorial:\n\nURL: https://www.w3schools.com/xml</string>
+    <string name="java">Java</string>
+    <string name="java_is_the_official_programming_language_for_android_app_development_n_n_it_is_used_for_building_the_core_functionality_and_front_end_design_of_android_apps_n_n_java_s_android_framework_includes_ui_components_layouts_views_and_more_for_creating_interactive_user_interfaces">Java is the official programming language for Android app development.\n\n It is used for building the core functionality and front-end design of Android apps.\n\n Java\'s Android framework includes UI components, layouts, views, and more for creating interactive user interfaces.</string>
+    <string name="some_of_the_fundamentals_of_the_java_programming_language_include">Some of the fundamentals of the Java programming language include :</string>
+    <string name="_1_packages_n_2_objects_and_classes_n_3_inheritance_and_interfaces_n_4_strings_and_numbers_generics_n_5_collections_n_6_concurrency_n">1. Packages\n 2. Objects and classes\n 3. Inheritance and interfaces\n 4. Strings and numbers, generics\n 5. Collections\n 6. Concurrency\n</string>
+    <string name="some_links_to_learn_java_programming_language_include">Some links to learn Java programming language include :</string>
+    <string name="_1_https_docs_oracle_com_javase_tutorial_n_n_2_https_www_udacity_com_course_java_programming_basics_ud282_n_n_3_https_www_vogella_com_tutorials_android_html_n_n_4_https_www_w3schools_com_java_n_n">1. https://docs.oracle.com/javase/tutorial/\n\n 2. https://www.udacity.com/course/java-programming-basics--ud282/\n\n 3. https://www.vogella.com/tutorials/android.html/\n\n 4. https://www.w3schools.com/java/\n\n</string>
+    <string name="logout">Logout</string>
+    <string name="back">Back</string>
+    <string name="attributes_elements_in_xml_can_have_attributes_that_provide_additional_information_about_the_data_they_represent_attributes_are_specified_within_the_opening_tag_of_an_element">Attributes: Elements in XML can have attributes that provide additional information about the data they represent. Attributes are specified within the opening tag of an element.</string>
+    <string name="hierarchical_structure_xml_documents_have_a_hierarchical_structure_where_elements_can_have_parent_child_relationships_forming_a_tree_like_structure">Hierarchical Structure: XML documents have a hierarchical structure where elements can have parent-child relationships, forming a tree-like structure.</string>
+    <string name="human_readable_and_machine_readable_xml_is_designed_to_be_both_readable_by_humans_and_processable_by_machines_making_it_suitable_for_data_interchange">Human-Readable and Machine-Readable: XML is designed to be both readable by humans and processable by machines, making it suitable for data interchange.</string>
+    <string name="flexibility_xml_allows_you_to_define_custom_tags_and_structures_making_it_adaptable_to_different_data_formats_and_requirements">Flexibility: XML allows you to define custom tags and structures, making it adaptable to different data formats and requirements</string>
 </resources>

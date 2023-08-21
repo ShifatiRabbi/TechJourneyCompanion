@@ -2,13 +2,12 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
     android:background="@drawable/lavender_round"
-    tools:context=".Login">
+    >
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -33,7 +32,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Java"
+                android:text="@string/java"
                 android:textSize="40sp"
                 android:textAlignment="center"
                 android:textStyle="bold"
@@ -45,9 +44,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:padding="8dp"
-                android:text="Java is the official programming language for Android app development.\n\n
-It is used for building the core functionality and front-end design of Android apps.\n\n
-Java's Android framework includes UI components, layouts, views, and more for creating interactive user interfaces."
+                android:text="@string/java_is_the_official_programming_language_for_android_app_development_n_n_it_is_used_for_building_the_core_functionality_and_front_end_design_of_android_apps_n_n_java_s_android_framework_includes_ui_components_layouts_views_and_more_for_creating_interactive_user_interfaces"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="24sp" />
@@ -56,7 +53,7 @@ Java's Android framework includes UI components, layouts, views, and more for cr
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="Some of the fundamentals of the Java programming language include :"
+                android:text="@string/some_of_the_fundamentals_of_the_java_programming_language_include"
                 android:textColor="@color/green"
                 android:textStyle="bold"
                 android:textSize="24sp" />
@@ -65,12 +62,7 @@ Java's Android framework includes UI components, layouts, views, and more for cr
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="1. Packages\n
-2. Objects and classes\n
-3. Inheritance and interfaces\n
-4. Strings and numbers, generics\n
-5. Collections\n
-6. Concurrency\n"
+                android:text="@string/_1_packages_n_2_objects_and_classes_n_3_inheritance_and_interfaces_n_4_strings_and_numbers_generics_n_5_collections_n_6_concurrency_n"
                 android:textColor="@color/white"
                 android:textSize="24sp" />
 
@@ -78,7 +70,7 @@ Java's Android framework includes UI components, layouts, views, and more for cr
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="Some links to learn Java programming language include :"
+                android:text="@string/some_links_to_learn_java_programming_language_include"
                 android:textColor="@color/green"
                 android:textStyle="bold"
                 android:textSize="24sp" />
@@ -88,10 +80,7 @@ Java's Android framework includes UI components, layouts, views, and more for cr
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:autoLink="web"
-                android:text="1. https://docs.oracle.com/javase/tutorial/\n\n
-2. https://www.udacity.com/course/java-programming-basics--ud282/\n\n
-3. https://www.vogella.com/tutorials/android.html/\n\n
-4. https://www.w3schools.com/java/\n\n"
+                android:text="@string/_1_https_docs_oracle_com_javase_tutorial_n_n_2_https_www_udacity_com_course_java_programming_basics_ud282_n_n_3_https_www_vogella_com_tutorials_android_html_n_n_4_https_www_w3schools_com_java_n_n"
                 android:textColor="@color/sky"
                 android:textSize="24sp" />
 
