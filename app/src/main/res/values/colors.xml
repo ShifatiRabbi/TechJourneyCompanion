@@ -16,4 +16,13 @@
     <color name="gray">#808080</color>
     <color name="darkGray">#A9A9A9</color>
     <color name="lightGray">#D3D3D3</color>
+    <color name="c1">#3F51B5</color>
+    <color name="c2">#303F9F</color>
+    <color name="c3">#FF4081</color>
+    <color name="c5">#673AB7</color>
+    <color name="c6">#E91E63</color>
+    <color name="c7">#4CAF50</color>
+    <color name="c8">#2196F3</color>
+    <color name="c9">#8F1353</color>
+    <color name="c10">#599E9C48</color>
 </resources>

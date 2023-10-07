@@ -1,4 +1,5 @@
 <resources>
+    <dimen name="divider_height">2dp</dimen>
     <string name="app_name">TechJourneyCompanion</string>
     <string name="xml_or_extensible_markup_language_is_a_widely_used_markup_language_designed_to_structure_store_and_transport_data_in_a_human_readable_and_machine_readable_format">XML, or Extensible Markup Language, is a widely used markup language designed to structure, store, and transport data in a human-readable and machine-readable format.</string>
     <string name="key_characteristics_of_xml">Key Characteristics of XML:</string>
@@ -20,4 +21,8 @@
     <string name="human_readable_and_machine_readable_xml_is_designed_to_be_both_readable_by_humans_and_processable_by_machines_making_it_suitable_for_data_interchange">Human-Readable and Machine-Readable: XML is designed to be both readable by humans and processable by machines, making it suitable for data interchange.</string>
     <string name="flexibility_xml_allows_you_to_define_custom_tags_and_structures_making_it_adaptable_to_different_data_formats_and_requirements">Flexibility: XML allows you to define custom tags and structures, making it adaptable to different data formats and requirements</string>
     <string name="you_are_now_viewing_web_design_and_development">You are now viewing Web design and Development</string>
+    <string name="_00_00_00_000">00 : 00 : 00 : 000</string>
+    <string name="stop">stop</string>
+    <string name="reset">reset</string>
+    <string name="start">start</string>
 </resources>
