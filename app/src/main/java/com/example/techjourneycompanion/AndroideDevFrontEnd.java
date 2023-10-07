@@ -5,7 +5,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class AndroideDevFrontEnd extends BaseActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class AndroideDevFrontEnd extends AppCompatActivity {
 
 
     @Override
@@ -13,7 +15,14 @@ public class AndroideDevFrontEnd extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_androide_dev_front_end);
 
-        setupBackButton();
+        Button backButton = findViewById(R.id.backButton);
+
+        backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed(); // Call the built-in back navigation method
+            }
+        });
 
 
         Button frontendJava = findViewById(R.id.fejava);

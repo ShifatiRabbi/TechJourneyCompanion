@@ -46,7 +46,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/searchBar"
-        android:text="You are now viewing Web design and Development"
+        android:text="@string/you_are_now_viewing_web_design_and_development"
 
         android:textAlignment="center"
         android:textColor="@color/pink"

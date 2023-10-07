@@ -4,14 +4,23 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class SoftwareDev extends BaseActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class SoftwareDev extends AppCompatActivity {
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_android_dev);
+        setContentView(R.layout.activity_software_dev);
 
-        setupBackButton();
+        Button backButton = findViewById(R.id.backButton);
+
+        backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed(); // Call the built-in back navigation method
+            }
+        });
     }
 }
